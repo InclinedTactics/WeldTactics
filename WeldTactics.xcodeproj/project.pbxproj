@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54A6D3E12BD097BF00E24713 /* WeldTacticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A6D3E02BD097BF00E24713 /* WeldTacticsApp.swift */; };
+		54A6D3E32BD097BF00E24713 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A6D3E22BD097BF00E24713 /* ContentView.swift */; };
+		54A6D3E52BD097C000E24713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A6D3E42BD097C000E24713 /* Assets.xcassets */; };
+		54A6D3E92BD097C000E24713 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A6D3E82BD097C000E24713 /* Preview Assets.xcassets */; };
+		54A6D3F32BD097C000E24713 /* WeldTacticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A6D3F22BD097C000E24713 /* WeldTacticsTests.swift */; };
+		54A6D3FD2BD097C000E24713 /* WeldTacticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A6D3FC2BD097C000E24713 /* WeldTacticsUITests.swift */; };
+		54A6D3FF2BD097C000E24713 /* WeldTacticsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A6D3FE2BD097C000E24713 /* WeldTacticsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54A6D3EF2BD097C000E24713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A6D3D52BD097BF00E24713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A6D3DC2BD097BF00E24713;
+			remoteInfo = WeldTactics;
+		};
+		54A6D3F92BD097C000E24713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A6D3D52BD097BF00E24713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A6D3DC2BD097BF00E24713;
+			remoteInfo = WeldTactics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54A6D3DD2BD097BF00E24713 /* WeldTactics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeldTactics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A6D3E02BD097BF00E24713 /* WeldTacticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeldTacticsApp.swift; sourceTree = "<group>"; };
+		54A6D3E22BD097BF00E24713 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54A6D3E42BD097C000E24713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54A6D3E62BD097C000E24713 /* WeldTactics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeldTactics.entitlements; sourceTree = "<group>"; };
+		54A6D3E82BD097C000E24713 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54A6D3EE2BD097C000E24713 /* WeldTacticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeldTacticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A6D3F22BD097C000E24713 /* WeldTacticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeldTacticsTests.swift; sourceTree = "<group>"; };
+		54A6D3F82BD097C000E24713 /* WeldTacticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeldTacticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A6D3FC2BD097C000E24713 /* WeldTacticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeldTacticsUITests.swift; sourceTree = "<group>"; };
+		54A6D3FE2BD097C000E24713 /* WeldTacticsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeldTacticsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54A6D3DA2BD097BF00E24713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A6D3EB2BD097C000E24713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A6D3F52BD097C000E24713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54A6D3D42BD097BF00E24713 = {
+			isa = PBXGroup;
+			children = (
+				54A6D3DF2BD097BF00E24713 /* WeldTactics */,
+				54A6D3F12BD097C000E24713 /* WeldTacticsTests */,
+				54A6D3FB2BD097C000E24713 /* WeldTacticsUITests */,
+				54A6D3DE2BD097BF00E24713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54A6D3DE2BD097BF00E24713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54A6D3DD2BD097BF00E24713 /* WeldTactics.app */,
+				54A6D3EE2BD097C000E24713 /* WeldTacticsTests.xctest */,
+				54A6D3F82BD097C000E24713 /* WeldTacticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54A6D3DF2BD097BF00E24713 /* WeldTactics */ = {
+			isa = PBXGroup;
+			children = (
+				54A6D3E02BD097BF00E24713 /* WeldTacticsApp.swift */,
+				54A6D3E22BD097BF00E24713 /* ContentView.swift */,
+				54A6D3E42BD097C000E24713 /* Assets.xcassets */,
+				54A6D3E62BD097C000E24713 /* WeldTactics.entitlements */,
+				54A6D3E72BD097C000E24713 /* Preview Content */,
+			);
+			path = WeldTactics;
+			sourceTree = "<group>";
+		};
+		54A6D3E72BD097C000E24713 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				54A6D3E82BD097C000E24713 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54A6D3F12BD097C000E24713 /* WeldTacticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				54A6D3F22BD097C000E24713 /* WeldTacticsTests.swift */,
+			);
+			path = WeldTacticsTests;
+			sourceTree = "<group>";
+		};
+		54A6D3FB2BD097C000E24713 /* WeldTacticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54A6D3FC2BD097C000E24713 /* WeldTacticsUITests.swift */,
+				54A6D3FE2BD097C000E24713 /* WeldTacticsUITestsLaunchTests.swift */,
+			);
+			path = WeldTacticsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54A6D3DC2BD097BF00E24713 /* WeldTactics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A6D4022BD097C000E24713 /* Build configuration list for PBXNativeTarget "WeldTactics" */;
+			buildPhases = (
+				54A6D3D92BD097BF00E24713 /* Sources */,
+				54A6D3DA2BD097BF00E24713 /* Frameworks */,
+				54A6D3DB2BD097BF00E24713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeldTactics;
+			productName = WeldTactics;
+			productReference = 54A6D3DD2BD097BF00E24713 /* WeldTactics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54A6D3ED2BD097C000E24713 /* WeldTacticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A6D4052BD097C000E24713 /* Build configuration list for PBXNativeTarget "WeldTacticsTests" */;
+			buildPhases = (
+				54A6D3EA2BD097C000E24713 /* Sources */,
+				54A6D3EB2BD097C000E24713 /* Frameworks */,
+				54A6D3EC2BD097C000E24713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A6D3F02BD097C000E24713 /* PBXTargetDependency */,
+			);
+			name = WeldTacticsTests;
+			productName = WeldTacticsTests;
+			productReference = 54A6D3EE2BD097C000E24713 /* WeldTacticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54A6D3F72BD097C000E24713 /* WeldTacticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A6D4082BD097C000E24713 /* Build configuration list for PBXNativeTarget "WeldTacticsUITests" */;
+			buildPhases = (
+				54A6D3F42BD097C000E24713 /* Sources */,
+				54A6D3F52BD097C000E24713 /* Frameworks */,
+				54A6D3F62BD097C000E24713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A6D3FA2BD097C000E24713 /* PBXTargetDependency */,
+			);
+			name = WeldTacticsUITests;
+			productName = WeldTacticsUITests;
+			productReference = 54A6D3F82BD097C000E24713 /* WeldTacticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54A6D3D52BD097BF00E24713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					54A6D3DC2BD097BF00E24713 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					54A6D3ED2BD097C000E24713 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 54A6D3DC2BD097BF00E24713;
+					};
+					54A6D3F72BD097C000E24713 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 54A6D3DC2BD097BF00E24713;
+					};
+				};
+			};
+			buildConfigurationList = 54A6D3D82BD097BF00E24713 /* Build configuration list for PBXProject "WeldTactics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54A6D3D42BD097BF00E24713;
+			productRefGroup = 54A6D3DE2BD097BF00E24713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54A6D3DC2BD097BF00E24713 /* WeldTactics */,
+				54A6D3ED2BD097C000E24713 /* WeldTacticsTests */,
+				54A6D3F72BD097C000E24713 /* WeldTacticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54A6D3DB2BD097BF00E24713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A6D3E92BD097C000E24713 /* Preview Assets.xcassets in Resources */,
+				54A6D3E52BD097C000E24713 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A6D3EC2BD097C000E24713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A6D3F62BD097C000E24713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54A6D3D92BD097BF00E24713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A6D3E32BD097BF00E24713 /* ContentView.swift in Sources */,
+				54A6D3E12BD097BF00E24713 /* WeldTacticsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A6D3EA2BD097C000E24713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A6D3F32BD097C000E24713 /* WeldTacticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A6D3F42BD097C000E24713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A6D3FF2BD097C000E24713 /* WeldTacticsUITestsLaunchTests.swift in Sources */,
+				54A6D3FD2BD097C000E24713 /* WeldTacticsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54A6D3F02BD097C000E24713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A6D3DC2BD097BF00E24713 /* WeldTactics */;
+			targetProxy = 54A6D3EF2BD097C000E24713 /* PBXContainerItemProxy */;
+		};
+		54A6D3FA2BD097C000E24713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A6D3DC2BD097BF00E24713 /* WeldTactics */;
+			targetProxy = 54A6D3F92BD097C000E24713 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54A6D4002BD097C000E24713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54A6D4012BD097C000E24713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		54A6D4032BD097C000E24713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WeldTactics/WeldTactics.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeldTactics/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovasolutions.WeldTactics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54A6D4042BD097C000E24713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WeldTactics/WeldTactics.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeldTactics/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovasolutions.WeldTactics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54A6D4062BD097C000E24713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovasolutions.WeldTacticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeldTactics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeldTactics";
+			};
+			name = Debug;
+		};
+		54A6D4072BD097C000E24713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovasolutions.WeldTacticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeldTactics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeldTactics";
+			};
+			name = Release;
+		};
+		54A6D4092BD097C000E24713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovasolutions.WeldTacticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeldTactics;
+			};
+			name = Debug;
+		};
+		54A6D40A2BD097C000E24713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovasolutions.WeldTacticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeldTactics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54A6D3D82BD097BF00E24713 /* Build configuration list for PBXProject "WeldTactics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A6D4002BD097C000E24713 /* Debug */,
+				54A6D4012BD097C000E24713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A6D4022BD097C000E24713 /* Build configuration list for PBXNativeTarget "WeldTactics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A6D4032BD097C000E24713 /* Debug */,
+				54A6D4042BD097C000E24713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A6D4052BD097C000E24713 /* Build configuration list for PBXNativeTarget "WeldTacticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A6D4062BD097C000E24713 /* Debug */,
+				54A6D4072BD097C000E24713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A6D4082BD097C000E24713 /* Build configuration list for PBXNativeTarget "WeldTacticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A6D4092BD097C000E24713 /* Debug */,
+				54A6D40A2BD097C000E24713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54A6D3D52BD097BF00E24713 /* Project object */;
+}
